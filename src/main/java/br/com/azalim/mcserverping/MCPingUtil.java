@@ -96,7 +96,7 @@ public class MCPingUtil {
             }
 
             out.writeByte(paramInt & 0x7F | 0x80);
-            paramInt >>>= 7;
+            paramInt >>>= 8;
         }
     }
 
